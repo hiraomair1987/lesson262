@@ -1,31 +1,27 @@
-class Pakistan():
-    def capital(self):
-        print("Islamabad is th ecapital  of Pakistan")
+class BMW():
+    def fuel_type(self):
+        print("Premium gasoline + electricity (plug-in hybrid)")
 
-    def language(self):
-        print("Urdu is the most widely spoken language in Pakistan")
-
-    def type(self):
-        print("Pakistan is a developing country")
-
-
-class USA():
-    def capital(self):
-        print("Washingtan, D.C. is the capital of USA")
-
-    def language(self):
-        print("English is the primary language of USA")
-
-    def type(self):
-        print("USA is a developed country")
+    def max_speed(self):
+        print("a BMW can go 305 kmh")
 
 
 
-obj_Pak = Pakistan()
-obj_USA = USA()
+class Ferrari():
+    def fuel_type(self):
+        print("Premium gasoline + electricity (plug-in hybrid)")
+
+    def max_speed(self):
+        print("a Ferrari can go 340 km/h")
 
 
-for country in(obj_Pak, obj_USA):
-    country.capital()
-    country.language()
-    country.type()
+
+
+obj_BMW = BMW()
+obj_Ferrari = Ferrari()
+
+
+for car  in(obj_BMW, obj_Ferrari):
+    car.fuel_type()
+    car.max_speed()
+    
